@@ -1,0 +1,66 @@
+body {
+    
+    font-family: 'Spartan', sans-serif;
+}
+h2{
+    text-align: center;
+}
+h3 {
+    color: #B578BB;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+
+.contenedor {
+    
+    min-width: 300px;
+    width: 75%;
+    padding: 0%;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+
+.biggercaja {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja {
+    width: 50%;
+    flex-direction: row;
+    text-align: center;
+}
+
+@media screen and (min-width: 390px) { 
+    .contenedor{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+        flex-flow: column;
+    }
+
+    .biggercaja {
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        
+    }
+
+    .caja{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
