@@ -17,13 +17,10 @@ li {
 }
 
 .contenedor {
-    
-    min-width: 300px;
     width: 75%;
     padding: 0%;
     margin: 0 auto;
     flex-direction: column;
-    
 }
 
 .biggercaja {
@@ -38,7 +35,7 @@ li {
     text-align: center;
 }
 
-@media screen and (min-width: 390px) { 
+@media screen and (max-width: 390px) { 
     .contenedor{
         width: 100%;
         margin: 0 auto;
